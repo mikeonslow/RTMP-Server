@@ -14,6 +14,8 @@ const config = {
   },
 };
 
+console.log("Config being used:", config);
+
 const nms = new NodeMediaServer(config);
 nms.run();
 
